@@ -1,13 +1,5 @@
-body {
-  margin: 0;
-  /* height: 100vh; */
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
-  font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
-}
 header {
-  font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+  font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
 }
 header nav {
   padding: 15px;
@@ -22,7 +14,6 @@ header nav a {
   letter-spacing: 2px;
   margin-right: 10px;
 }
-
 header #navigation {
   margin: 0;
 }
@@ -39,7 +30,8 @@ header #intro img {
   border-radius: 250px;
   width: 100px;
 }
-header #intro h1, h2 {
+header #intro h1,
+h2 {
   color: #3a4145;
 }
 header #intro h1 {
@@ -48,23 +40,22 @@ header #intro h1 {
 header #intro h2 {
   opacity: 0.5;
   font-weight: 200;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
-main {
+/* main {
   width: 80%;
   max-width: 800px;
   margin: 20px auto;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   color: #3a4145;
 }
 main .title {
   font-size: 1.25em;
-  font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+  font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
 }
 main .paragraph {
   text-align: justify;
-  /* margin-top: 15px; */
-  margin-top: 50px;;
+  margin-top: 50px;
 }
 .contact-card {
   margin: 20px 0;
@@ -74,12 +65,9 @@ main .paragraph {
 .contact-card a {
   text-decoration: none;
   color: #1d7aaf;
-}
+} */
 
 @media screen and (max-width: 600px) {
-  main {
-    width: 90%;
-  }
   header #intro h1 {
     padding: 0 15px;
   }
