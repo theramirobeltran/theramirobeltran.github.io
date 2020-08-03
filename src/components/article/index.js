@@ -2,18 +2,18 @@ import React from "react";
 import "./article.css";
 
 export default ({ article }) => (
-  <main>
+  <>
     {article.map(section => {
       return (
-        <div className="paragraph">
-          <div className="title">{section.title}</div>
-          <div>
+        <article className="paragraph" key={section.title}>
+          <h2 className="title">{section.title}</h2>
+          <section>
             {section.paragraphs.map(par => {
-              return <p>{par}</p>;
+              return <p key={par.substring(0, 5)}>{par}</p>;
             })}
-          </div>
-        </div>
+          </section>
+        </article>
       );
     })}
-  </main>
+  </>
 );

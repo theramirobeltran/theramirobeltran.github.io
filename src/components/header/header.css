@@ -3,6 +3,8 @@ header {
 }
 header nav {
   padding: 15px;
+  display: flex;
+  justify-content: space-between;
 }
 header nav a {
   text-decoration: none;
@@ -10,6 +12,10 @@ header nav a {
   font-size: 16px;
   color: #2e2e2e;
   letter-spacing: 2px;
+  margin-right: 10px;
+}
+header #navigation {
+  margin: 0;
 }
 header #intro {
   border-bottom: 1px solid rgba(63, 63, 63, 0.39);
