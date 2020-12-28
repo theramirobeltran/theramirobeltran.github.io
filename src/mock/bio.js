@@ -3,11 +3,11 @@ export default [
       title: "About Me",
       paragraphs: [
         `I am a professional Software Developer working in an Enterprise
-                environment, and have been for the last 3.5 years. It is very
+                environment, and have been for the last 4 years. It is very
                 different than when you are say, going to school, learning to code,
                 and/or being an indie developer. It means getting paid to do what you
                 love. It means continuing to educate yourself in the ever-evolving
-                world of code, latest technologies, and trends not just because you
+                world of code, latest technologies and trends not just because you
                 want to, but because you have to.`,
         `Before I worked for an enterprise, I considered myself an indie
                 developer, not really knowing what that meant either. I was doing some
