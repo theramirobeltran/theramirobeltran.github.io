@@ -1,5 +1,13 @@
 header {
   font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
+
+  background: rgb(23, 176, 186);
+  background: radial-gradient(
+    circle,
+    rgba(23, 176, 186, 1) 0%,
+    rgba(9, 106, 121, 1) 51%,
+    rgba(47, 75, 80, 1) 100%
+  );
 }
 header nav {
   padding: 15px;
@@ -22,25 +30,27 @@ header #intro {
   border-top: 1px solid rgba(63, 63, 63, 0.39);
   text-align: center;
   padding-top: 30px;
-  background-color: #f5f8fa;
+  /* background-color: #f5f8fa; */
 }
 header #intro img {
-  border: 1px solid rgba(100, 99, 99, 0.219);
-  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.384);
+  padding: 2px;
   border-radius: 250px;
   width: 100px;
 }
 header #intro h1,
-h2 {
-  color: #3a4145;
+h3 {
+  color: #fff;
 }
 header #intro h1 {
   font-size: 2rem;
+  margin-top: initial;
 }
-header #intro h2 {
-  opacity: 0.5;
+header #intro h3 {
+  opacity: 0.75;
   font-weight: 200;
   font-family: "Merriweather Sans", sans-serif;
+  margin-top: -20px;
 }
 /* main {
   width: 80%;
@@ -68,10 +78,15 @@ main .paragraph {
 } */
 
 @media screen and (max-width: 600px) {
+  header #intro {
+    padding-top: 15px;
+  }
+
   header #intro h1 {
     padding: 0 15px;
+    margin-top: initial;
   }
-  header #intro h2 {
+  header #intro h3 {
     font-size: 1.2rem;
     padding: 0 10px;
   }

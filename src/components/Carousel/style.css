@@ -1,0 +1,9 @@
+.centered {
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 50%; */
+  /* margin: auto; */
+  object-fit: scale-down;
+  border: 2px solid red;
+}

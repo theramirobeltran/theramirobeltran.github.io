@@ -1,24 +1,32 @@
 import React, { useState } from "react";
+
 import "./App.css";
 import Header from "./components/header";
-import Routes from "./routes";
 import ContactCard from "./components/contact-card";
-
-const AppContext = React.createContext();
-
-export { AppContext };
+import Article from "./components/article";
+import Carousel from "./components/Carousel";
+import articles from "./data/articles";
 
 const App = () => {
-
-  const [phrase, setPhrase] = useState('I dabble in code; Sometimes it works.')
-  
+  const [articleIdx, setArticleIdx] = useState(0);
+  const handleArticleChange = (e) => {
+    console.log(e);
+    setArticleIdx(e);
+  };
   return (
-    <AppContext.Provider value={{ phrase, setPhrase }}>
-      <Header />
-      <Routes />
+    <>
+      <Header phrase="I dabble in code; Sometimes it works." />
+      <main>
+        <Carousel
+          data={articles}
+          onChange={handleArticleChange}
+          showThumbs={false}
+        />
+        <Article article={articles[articleIdx].article} />
+      </main>
       <ContactCard />
-    </AppContext.Provider>
+    </>
   );
-}
+};
 
 export default App;
