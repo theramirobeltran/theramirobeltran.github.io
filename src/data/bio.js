@@ -1,4 +1,11 @@
-export default [
+export default {
+  image:
+    //     "https://images.pexels.com/photos/2882689/pexels-photo-2882689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/1036857/pexels-photo-1036857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  //     "https://images.pexels.com/photos/4473400/pexels-photo-4473400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  description: "description",
+  title: "About Me",
+  article: [
     {
       title: "About Me",
       paragraphs: [
@@ -20,8 +27,8 @@ export default [
                 It means that you are accountable to no-one but yourself.`,
         `Even though I really enjoy personal projects, working in an enterprise
                 has taught me to be a stronger developer, to hold myself accountable,
-                and to produce quality code.`
-      ]
+                and to produce quality code.`,
+      ],
     },
     {
       title: "What I love about Software",
@@ -65,8 +72,8 @@ export default [
                 there working really hard on Virtual Reality headsets and content, and
                 other things being worked in secret. It's just a matter of time before
                 we are all spending most of our time in the Oasis. Wouldn’t be much
-                different than staring at our phones all day long.`
-      ]
+                different than staring at our phones all day long.`,
+      ],
     },
     {
       title: "A Personal Note",
@@ -92,7 +99,8 @@ export default [
                 morning (August 1, 2020), I picked up my acoustic, and it felt great.
                 Another thing I love about software is that there are so many
                 different tools involved, it's impossible to get bored. But if you do,
-                take some time, breathe, and build something just for fun.`
-      ]
-    }
-  ];
+                take some time, breathe, and build something just for fun.`,
+      ],
+    },
+  ],
+};
