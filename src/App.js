@@ -10,7 +10,7 @@ import articles from "./data/articles";
 const App = () => {
   const [articleIdx, setArticleIdx] = useState(0);
   const handleArticleChange = (e) => {
-    console.log(e);
+    // console.log(e);
     setArticleIdx(e);
   };
   return (
