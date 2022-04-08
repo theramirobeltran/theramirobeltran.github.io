@@ -10,9 +10,11 @@
     "master": "^0.0.14",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-markdown": "^8.0.2",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "remark-gfm": "^3.0.1",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
