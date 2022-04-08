@@ -1,10 +1,9 @@
 export default {
   image:
-    // "https://images.pexels.com/photos/6230973/pexels-photo-6230973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/279321/pexels-photo-279321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  // "https://images.pexels.com/photos/4473400/pexels-photo-4473400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/6230973/pexels-photo-6230973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   description: "description",
   title: "About Me",
+  publishedDate: "August 2020",
   article: `
   ## A little about me
   I am a professional Software Developer working in an Enterprise
@@ -74,7 +73,7 @@ export default {
   we are all spending most of our time in the Oasis. Wouldn’t be much
   different than staring at our phones all day long.
 
-  ## Music in the code
+  ## Music to my code
   I love music, and often code while listening to music. Sure I know
   what you are thinking, "Duh, Everyone loves music". I mean that it
   resonates with me because it is a form of creativity based firmly in

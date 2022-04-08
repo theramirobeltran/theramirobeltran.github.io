@@ -13,6 +13,9 @@ const App = () => {
     // console.log(e);
     setArticleIdx(e);
   };
+
+  const post = articles[articleIdx];
+
   return (
     <>
       <Header phrase="I dabble in code; Sometimes it works." />
@@ -22,7 +25,10 @@ const App = () => {
           onChange={handleArticleChange}
           showThumbs={false}
         />
-        <Article article={articles[articleIdx].article} />
+        <p style={{ opacity: 0.5, marginTop: 5, textAlign: "right" }}>
+          {post.publishedDate}
+        </p>
+        <Article article={post.article} />
       </main>
       <ContactCard />
     </>
