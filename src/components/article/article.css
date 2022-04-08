@@ -1,9 +1,11 @@
-main .title {
-  font-size: 1.25em;
+article > h1,
+h2 {
+  margin-top: 30px;
+}
+
+article h2 {
   font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
 }
-main .paragraph {
+article > p {
   text-align: justify;
-  /* margin-top: 15px; */
-  margin-top: 50px;
 }
