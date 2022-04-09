@@ -1,4 +1,6 @@
 import React from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import "./header.css";
 
 const Header = ({ phrase }) => {
@@ -10,7 +12,11 @@ const Header = ({ phrase }) => {
           alt="ramiro beltran"
         />
         <h1>Ramiro 'Ram' Beltran</h1>
-        <h3>{phrase}</h3>
+        <ReactMarkdown
+          children={phrase}
+          remarkPlugins={[remarkGfm]}
+          className="phrase"
+        />
       </section>
     </header>
   );

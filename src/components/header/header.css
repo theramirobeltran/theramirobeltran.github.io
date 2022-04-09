@@ -39,43 +39,26 @@ header #intro img {
   width: 100px;
 }
 header #intro h1,
-h3 {
+.phrase {
   color: #fff;
 }
 header #intro h1 {
   font-size: 2rem;
   margin-top: initial;
 }
-header #intro h3 {
+header .phrase {
   opacity: 0.75;
   font-weight: 200;
   font-family: "Merriweather Sans", sans-serif;
   margin-top: -20px;
 }
-/* main {
-  width: 80%;
-  max-width: 800px;
-  margin: 20px auto;
-  font-family: "Merriweather Sans", sans-serif;
-  color: #3a4145;
+
+header code {
+  background-color: #fff;
+  color: rgb(22, 99, 109);
+  padding: 2px;
+  margin: 0 3px;
 }
-main .title {
-  font-size: 1.25em;
-  font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
-}
-main .paragraph {
-  text-align: justify;
-  margin-top: 50px;
-}
-.contact-card {
-  margin: 20px 0;
-  text-align: center;
-  opacity: 0.5;
-}
-.contact-card a {
-  text-decoration: none;
-  color: #1d7aaf;
-} */
 
 @media screen and (max-width: 600px) {
   header #intro {
@@ -86,7 +69,7 @@ main .paragraph {
     padding: 0 15px;
     margin-top: initial;
   }
-  header #intro h3 {
+  header .phrase {
     font-size: 1.2rem;
     padding: 0 10px;
   }
