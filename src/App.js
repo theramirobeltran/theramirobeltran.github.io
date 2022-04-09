@@ -5,10 +5,12 @@ import Header from "./components/header";
 import ContactCard from "./components/contact-card";
 import Article from "./components/article";
 import Carousel from "./components/Carousel";
-import articles from "./data/articles";
+import { articles, phrases } from "./data";
+import { getRandomInt } from "./util/random";
 
 const App = () => {
   const [articleIdx, setArticleIdx] = useState(0);
+
   const handleArticleChange = (e) => {
     // console.log(e);
     setArticleIdx(e);
@@ -18,7 +20,7 @@ const App = () => {
 
   return (
     <>
-      <Header phrase="I dabble in code; Sometimes it works." />
+      <Header phrase={phrases[getRandomInt(0, phrases.length)]} />
       <main>
         <Carousel
           data={articles}
