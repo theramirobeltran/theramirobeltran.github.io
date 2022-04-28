@@ -1,3 +1,4 @@
 import bio from "./bio";
+import journey from "./journey";
 
-export default [bio];
+export default [journey, bio];

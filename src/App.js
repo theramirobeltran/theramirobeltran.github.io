@@ -10,9 +10,9 @@ import { getRandomInt } from "./util/random";
 
 const App = () => {
   const [articleIdx, setArticleIdx] = useState(0);
+  const [phrase] = useState(phrases[getRandomInt(0, phrases.length)]);
 
   const handleArticleChange = (e) => {
-    // console.log(e);
     setArticleIdx(e);
   };
 
@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <>
-      <Header phrase={phrases[getRandomInt(0, phrases.length)]} />
+      <Header phrase={phrase} />
       <main>
         <Carousel
           data={articles}
