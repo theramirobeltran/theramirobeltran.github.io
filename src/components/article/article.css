@@ -1,11 +1,18 @@
 article > h1,
 h2 {
   margin-top: 30px;
-}
-
-article h2 {
   font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
 }
+
 article > p {
   text-align: justify;
+}
+
+article > p > a {
+  text-decoration: none;
+  color: rgb(178, 39, 181);
+}
+
+img {
+  text-align: center;
 }
