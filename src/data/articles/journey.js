@@ -2,7 +2,7 @@ export default {
   image:
     // "https://images.pexels.com/photos/38537/woodland-road-falling-leaf-natural-38537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "https://images.pexels.com/photos/1537979/pexels-photo-1537979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  description: "description",
+  description: "A short history of my journey with the tech industry",
   title: "Journey into Tech",
   publishedDate: "April 27, 2022",
   article: ` 
