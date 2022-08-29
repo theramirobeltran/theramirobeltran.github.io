@@ -6,6 +6,7 @@ h2 {
 
 article > p {
   text-align: justify;
+  line-height: 1.75;
 }
 
 article > p > a {
