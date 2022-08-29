@@ -1,6 +1,14 @@
 export default [
   {
     image:
+      "https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?cs=srgb&dl=pexels-matheus-bertelli-2608517.jpg&fm=jpg",
+    description: "Conferences as a form of networking",
+    title: "Networking: Conferences",
+    publishedDate: "August 29, 2022",
+    fileName: "conferences.md",
+  },
+  {
+    image:
       "https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description: "technical design for personal projects",
     title: "Technical Design for Personal Projects",
