@@ -42,7 +42,7 @@ No large event is without its struggles, and Render was no exception. Keep in mi
 
 ![dancing chicken](https://media.giphy.com/media/qyYNEMwdaNpQj14bll/giphy.gif)
 
-### Yes! And here's why
+### And here's why
 
 Render2023 already has a bigger venue(way bigger). It is even attached to the hotel you will most likely be staying at, which means no long commute in the morning and afternoon. Tons of speakers. The speaker list is 80+ right now, and includes lots of thought leaders in their fields.
 
