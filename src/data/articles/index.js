@@ -1,6 +1,14 @@
 export default [
   {
     image:
+      "https://cdn.thenewstack.io/media/2022/01/10b88c68-typescript-logo.png",
+    description: "My relationship with Typescript",
+    title: "Typescript",
+    publishedDate: "September 1, 2022",
+    fileName: "typescript.md",
+  },
+  {
+    image:
       "https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?cs=srgb&dl=pexels-matheus-bertelli-2608517.jpg&fm=jpg",
     description: "Conferences as a form of networking",
     title: "Networking: Conferences",
